@@ -1,0 +1,16 @@
+[project]
+name = "fetchy"
+version = "0.1.0"
+description = "Fetchy is a multiservice video/sound donwloader."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.2.1",
+    "requests>=2.32.3",
+    "rich>=14.0.0",
+    "rich-gradient>=0.2.0",
+    "yt-dlp>=2025.5.22",
+]
+
+[project.scripts]
+fetchy = "main:main"
